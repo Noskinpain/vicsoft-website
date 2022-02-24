@@ -1,0 +1,422 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background:  linear-gradient(180deg, #1344F5 0%, #0B1D5E 198.57%);
+    padding: 0 5%;
+}
+.logo{
+    font-weight: bold;
+    color: white;
+    font-size: 25px;
+}
+nav{
+    gap: 50px;
+    display: flex;
+}
+nav a{
+    color: white;
+    font-family: "poppins", cursive;
+    font-size: 15px;
+    text-decoration: none;
+    font-style: normal;
+}
+.banner{
+    /* display: grid;
+    grid-template-columns: repeat(1fr, 2fr); */
+    display: flex;
+    justify-content:space-between ;
+    padding: 0 5%;
+    height: 699px;
+    background-color: white;
+}
+.text h3{
+    width:342px;
+    height:203.9px;
+    font-family: "poppins" cursive;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 50px;
+    color: #1344F5;
+    margin-top: 140px;
+}
+.bannerimg{
+    background-image: url(image/ITicon.jpg);
+    height: 560.44px; 
+    width: 870px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position:center ;
+    object-fit: cover;
+}
+p{
+    width:342px;
+    height:41.98px;
+    font-family: "poppins" cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+    text-transform: capitalize;
+    color: #000;
+    margin-top: -20px;
+}
+.btn{
+    margin-top: 40px;
+    width: 180px;
+    height: 47px;
+    border: none;
+    color: white;
+    font-weight: 500;
+    background:  linear-gradient(180deg, #1344F5 0%, #0B1D5E 198.57%);
+    cursor: pointer;
+}
+.intro h2{
+    text-align: center;
+    color: #1344F5;
+    font-weight: bold;
+}
+.wrap h3{
+    color: #1344F5;
+    margin-bottom: 10px;
+}
+.intro{
+    padding: 0 5%;
+}
+.layimg{
+    background-image: url(image/neonbrand-zFSo6bnZJTw-unsplash.jpg);
+    height:400px;
+    max-width: 2000px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position:center ;
+    object-fit: cover;
+    margin: 50px 0 50px 0;
+}
+.htext{
+    text-align: center;
+    color: #1344F5;
+    font-weight: bold;  
+}
+.ptext{
+    text-align: center;
+    padding: 0 500px;
+    margin-top: 15px;
+}
+.grid1{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-bottom: 20px;
+}
+.vidimg{
+    background-image: url(image/video-player-svgrepo-com.svg);
+    height:50px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position:center ;
+    object-fit: cover;
+    padding: 0 200px;
+    margin-top: 50px;
+    opacity: 0.5;
+    background-color: aqua;
+    
+}
+.text1{
+    padding-left: 180px;
+    color: #000; 
+}
+.point{
+    background-image: url(image/slideshow-svgrepo-com.svg) ;
+    height:50px;
+    max-width: 80px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position:center ;
+    object-fit: cover;
+    padding: 0 200px;
+    margin-top: 50px;
+    
+}
+.excel{
+    background-image: url(image/spreadsheet-cell-svgrepo-com.svg);
+    height:50px;
+    max-width: 80px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position:center ;
+    object-fit: cover;
+    padding: 0 200px;
+    margin-top: 50px;
+}
+.uxdesign{
+    background-image: url(image/ux-design-svgrepo-com.svg);
+    height:50px;
+    max-width: 80px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position:center ;
+    object-fit: cover;
+    padding: 0 200px;
+    margin-top: 50px;
+}
+.mobileapp{
+    background-image: url(image/mobile-svgrepo-com.svg);
+    height:50px;
+    max-width: 80px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position:center ;
+    object-fit: cover;
+    padding: 0 200px;
+    margin-top: 50px;
+}
+.msword{
+    background-image: url(image/document-word-processor-svgrepo-com.svg);
+    height:50px;
+    max-width: 80px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position:center ;
+    object-fit: cover;
+    padding: 0 200px;
+    margin-top: 50px;
+}
+.gdesign{
+    background-image: url(image/graphic-design-svgrepo-com.svg);
+    height:50px;
+    max-width: 80px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position:center ;
+    object-fit: cover;
+    padding: 0 200px;
+    margin-top: 50px;
+}
+.uidesign{
+    background-image: url(image/browser-ui-svgrepo-com.svg);
+    height:50px;
+    max-width: 80px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position:center ;
+    object-fit: cover;
+    padding: 0 200px;
+    margin-top: 50px;
+}
+.coding{
+    background-image: url(image/coding-svgrepo-com.svg);
+    height:50px;
+    max-width: 80px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position:center ;
+    object-fit: cover;
+    padding: 0 200px;
+    margin-top: 50px;  
+}
+.firsttext{
+    display: flex;
+    justify-content: space-between;
+}
+.text2{
+    padding-right: 155px;
+    text-align: center;
+    padding-left: 154px;
+}
+.text3{
+    padding-right: 165px;
+    
+}
+.grid2{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-bottom: 20px;
+}
+.secondtext{
+    display: flex;
+    justify-content: space-between;
+}
+.text4{
+    padding-left: 190px;
+}
+.text5{
+    padding-right: 158px;
+    text-align: center;
+    padding-left: 158px;
+}
+.text6{
+    padding-right: 168px;
+}
+.grid3{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-bottom: 20px;
+}
+.thirdtext{
+    display: flex;
+    justify-content: space-between;
+}
+.text7{
+    padding-left: 178px;
+}
+.text8{
+    padding-right: 230px;
+    padding-left: 190px;
+}
+.text9{
+    padding-right: 200px;
+}
+.vision h2{
+    text-align: center;
+    background: #1344F5;
+    margin-top: 200px;
+    color: white;
+    padding-top: 60px;
+}
+.myimage{
+    background-image: url(image/PicsArt_06-09-01.03.27\ \(2\).jpg);
+    height:300px;
+    width: 300px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: 80px;
+    margin-top: -120px;
+    margin-bottom: 100px;
+    
+    
+    border-radius: 100%;
+}
+.grid4{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background: #1344F5;
+    padding-top: 200px;
+    color: white;
+}
+.imagetext{
+    padding-left: 100px;
+}
+.ceo{
+    padding-top: 310px;
+    padding-left: 18px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+.namee{
+    font-weight: lighter;
+    font-size: 15px;
+}
+.ourwork h2{
+    text-align: center;
+    margin-top: 50px;
+    color: #1344F5;
+    font-weight: bold;
+}
+.minitext{
+    text-align: center;
+    color: #000;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.grid5{
+    /* display: grid;
+    grid-template-columns: repeat(3, 1fr); */
+    gap: 30px;
+    padding: 0 10%;
+    display: flex;
+    justify-content: center;
+    
+}
+.card{
+    background-color: antiquewhite;
+    min-height: 300px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    width: 254px;
+    margin-bottom: 180px;
+    
+}
+.grid5 img{
+   object-fit: cover;
+   object-position: center;
+   height: 150px;
+   width: 100%;
+   border-radius: 10px;
+   padding-bottom: 20px;
+   margin-bottom: 25px;
+}
+.card p{
+    text-align: center;
+    width: fit-content;
+}
+.foot h2{
+    text-align:start;
+    font-weight: 900;
+    font-size: 25px;
+    color: #1344F5;
+    padding-left: 150px;
+}
+.footimg img{
+    height: 400px;
+    width: 600px;
+    object-position: center;
+    margin: 50px 400px;
+}
+.butn{
+    border: none;
+     color: white;
+     background-color: #1344F5;
+     height: 30px;
+     width: 300px;
+     margin-left: 550px;
+     margin-bottom: 50px;
+     cursor: pointer;
+     font-weight: 700;
+}
+.foter{
+    background:  linear-gradient(180deg, #1344F5 0%, #0B1D5E 198.57%);
+    padding-bottom: 50px;
+}
+.foter h2{
+    font-weight: bold;
+    padding-left: 80px;
+    color: white;
+    padding-top: 70px;
+}
+.placegrid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-items: space-between;
+    color: white;
+    font-size: 10px;
+    
+}
+.placegrid1{
+    margin-left: 400px;
+}
+.placegrid2{
+    margin-right: 200px;
+}
+.last{
+    background-color: #0B1D5E;
+    text-align: center;
+    color: white;
+    padding:30px ;
+    padding-bottom: 30px;
+}
+
+  
+
+
+
